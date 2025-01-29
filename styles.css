@@ -1,0 +1,126 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Contenedor principal */
+.container {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 420px;
+    margin: auto;
+}
+
+/* Título */
+h1 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+/* Inputs */
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 14px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+input:focus {
+    border-color: #444;
+}
+
+/* Botones */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+#btn-ingreso {
+    background-color: #27ae60;
+}
+
+#btn-ingreso:hover {
+    background-color: #219150;
+    transform: translateY(-2px);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+#btn-gasto {
+    background-color: #c0392b;
+}
+
+#btn-gasto:hover {
+    background-color: #a93226;
+    transform: translateY(-2px);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Balance */
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+#balance {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* Lista de transacciones */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 12px;
+    margin: 5px 0;
+    border-radius: 10px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para ingresos y gastos */
+.ingreso {
+    background-color: #e8f5e9;
+    color: #27ae60;
+    border-left: 5px solid #27ae60;
+}
+
+.gasto {
+    background-color: #fbeaea;
+    color: #c0392b;
+    border-left: 5px solid #c0392b;
+}
